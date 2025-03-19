@@ -13,4 +13,4 @@
           IMAGE_TAG: ${{ github.sha }}
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/xdmod-docker:${IMAGE_TAG} .
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/xdmod-docker:${IMAGE_TAG}
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/xdmod-docker:${IMAGE_TAG} 
