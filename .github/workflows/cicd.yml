@@ -1,7 +1,6 @@
   push:
     branches: [ "master" ]
     jobs:
-    job1:
       runs-on: ubuntu-latest
       steps:
       - name: Login to Docker Hub
