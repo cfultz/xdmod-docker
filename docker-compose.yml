@@ -1,0 +1,6 @@
+services:
+  xdmod_setup:
+    image: xdmod:latest
+    tty: true
+    stdin_open: true
+    command: sh
